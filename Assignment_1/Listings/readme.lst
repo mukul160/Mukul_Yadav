@@ -1,0 +1,22 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ; Answer to problem 3 and 4:
+    2 00000000         ; 3- RSB performs the same function as SUB but in opposi
+                       te order, this may prove helpful for making the code eas
+                       ier to read, when symmetry
+    3 00000000         ; in register order is desirable.
+    4 00000000         
+    5 00000000         ;4 - His calculations are not correct.
+                       
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=.\objects\readme.d -o.\objects\readme.o -I.\RTE\_Target_1 -IC:\
+Users\mukul\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -IC:\Use
+rs\mukul\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\I
+nclude --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 528" --p
+redefine="_RTE_ SETA 1" --predefine="__MSP432P401R__ SETA 1" --list=.\listings\
+readme.lst README.s
+334 symbols in table
